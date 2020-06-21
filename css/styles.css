@@ -164,7 +164,7 @@ p {
     width: 95vw;
   }
 }
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -250,7 +250,7 @@ Navbar
     align-items: center;
   }
 }
-/* fixed navbar */
+/* sticky navbar */
 .navbar-fixed {
   position: fixed;
   top: 0;
@@ -275,8 +275,6 @@ Sidebar
   background: var(--clr-grey-10);
   z-index: 4;
   display: grid;
-  /* align-items: center;
-  justify-content: center; */
   place-items: center;
   -webkit-transition: var(--transition);
   transition: var(--transition);
@@ -431,7 +429,7 @@ About
 }
 /*
 =============== 
-Services
+Intrests
 ===============
 */
 /* bg-grey in globals */
@@ -482,12 +480,10 @@ Services
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-/* talk about small screen 
-without grid different setup */
-/*
 
+/*
 =============== 
-Connect
+Connect bg-video
 ===============
 */
 .connect {
